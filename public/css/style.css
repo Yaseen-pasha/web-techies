@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    height: 43px;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+
+}
+.title{
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 28px;
+}
+.background{
+    background: rgba(0,0,0,0.3) url("../images/navv2.jpg");
+    background-size: cover;
+    /* background-blend-mode: darken; */
+    position: sticky;
+    top: 0;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+.navlist li{
+    list-style: none;
+    padding: 0px 26px 0px 20px;
+
+}
+.navlist li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: darkgoldenrod;
+    transition: 0.4s;
+}
+.navlist li a:hover{
+    color: burlywood;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 92%;
+}
+.about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 92%;
+}
+.growth_img{
+    width: 40%;
+    padding-left: 50px;
+}
+.hero_heading{
+    color: darkgoldenrod;
+    line-height: 44px;
+}
+.about_title{
+    color: darkgoldenrod;
+    line-height: 44px;
+}
+.hero_span{
+    color: sienna;
+}
+.hero_para{
+    color: lightslategray;
+    padding: 0px 0px 15px 0px;
+}
+.read_more{
+    text-decoration: none;
+    border: 1px solid black;
+    background: orangered;
+    color: burlywood;
+    padding: 3px 5px;
+    outline: none;
+    border-radius: 3px;
+}
+.read_more:hover{
+    background: burlywood;
+    color: orangered;
+}
+.about{
+    text-align: center;
+    color: darkgoldenrod;
+    height: 0px;
+}
+.about_para{
+    width: 37%;;
+}
+.sponsors_img{
+    width: 40px;
+}
+/* .sponsors_heading{
+
+}
+.sponsors_para{
+
+} */
+.sponsors_box{
+    text-align: center;
+    text-align: center;
+    border: 1pxsolid greenyellow;
+    background: white;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    width: 22%;
+    margin: 2px 16px 27px;
+    padding: 14px 14px 14px;
+
+}
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsors_para{
+    font-size: 15px;
+    color: lightslategray;
+}
+.sponsors_heading{
+    font-size: 18px;
+    color: darkgoldenrod;
+}
+.services{
+    text-align: center;
+    color: darkgoldenrod;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form_input{
+    width: 30%;
+    margin: 13px;
+    font-size: 15px;
+    color: blueviolet;
+    outline-color: darkgoldenrod;
+    height: 27px;
+}
+.form_submit{
+    width: 10%;
+}
+.footer{
+    text-align: center;
+    font-size: 15px;
+    background: black;
+    color: white;
+    line-height: 47px;
+    margin-top: 68px;
+}
+.form_submit{
+    margin-top: 20px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 19px;
+    transform: translate(-10%, -50%);
+}
+.line1{
+    width: 30px;
+    background-color: darkgoldenrod;
+    height: 4px;
+    margin: 5px 0px;
+    transition: transform 0.5s, width 0.5s;
+}
+.line2{
+    width: 30px;
+    background-color: darkgoldenrod;
+    height: 4px;
+    margin: 5px 0px;
+    transition: transform 0.5s, width 0.5s;
+}
+.line3{
+    width: 30px;
+    background-color: darkgoldenrod;
+    height: 4px;
+    margin: 5px 0px;
+    transition: transform 0.5s, width 0.5s;
+}
+.openburger .line1{
+    transform: translate(-36%, 400%) rotate(-45deg);   
+}
+.openburger .line3{
+    transform: translate(-25%, -100%) rotate(45deg);
+}
+.openburger .line2{
+    width: 0%;
+}
+.burger:hover{
+    color: mediumvioletred;
+    cursor: pointer;
+}

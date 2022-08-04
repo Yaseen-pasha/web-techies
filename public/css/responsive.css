@@ -1,0 +1,112 @@
+@media only screen and (max-width:1060px){
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 25px;
+    }
+    .hero_heading{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .about_title{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .hero_para {
+        font-size: 11px;
+    }
+    .read_more{
+        font-size: 11px;
+    }
+    .growth_img {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .about {
+        text-align: center;
+        color: darkgoldenrod;
+        height: 55px;
+    }
+    .about_main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 25px;
+    }
+    .about_heading{
+        font-size: 20px;
+    }
+    .about_para {
+        width: 90%;
+    }
+    .sponsors_box {
+        width: 85%;
+        margin-bottom: 15px;
+    }
+    .sponsors{
+        display: flex;
+        align-content: center;
+        /* flex-wrap: nowrap; */
+        flex-direction: column;
+    }
+    .sponsors_para {
+        font-size: 13px;
+    }
+    .map{
+        height: 40vh;
+    }
+    .form_input {
+        width: 80%;
+        margin: 9px;
+        font-size: 11px;
+    }
+    .form_submit {
+        margin-top: 12px;
+        width: 30%;
+    }
+    .footer {
+        font-size: 10px;
+    }
+    .navlist {
+        display: flex;
+        align-items: flex-end;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .navbar {
+        display: block;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        height: 160px;
+        transition: all 0.4s ease-out;
+    }
+    .title {
+        text-decoration: none;
+        margin-left: 11px;
+        font-size: 24px;
+        /* width: 87vw; */
+        top: 5px;
+        position: absolute;
+    }
+    .navlist li {
+        list-style: none;
+        padding: 0px 26px 5px 20px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 6vh;
+    }
+    .v-class{
+        content-visibility: hidden;
+    }
+}
