@@ -283,14 +283,14 @@ html{
         transform: rotate(360deg);
     }
 }
-/* .load{
+.load{
     position: absolute;
     top: 18%;
     left: 67%;
     transform: translate(-50%, -50%);
     color: #7d3cff;
     font-size: 12px;
-} */
+}
 #preloader{
     background: whitesmoke;
     height: 100vh;
