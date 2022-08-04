@@ -5,18 +5,29 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding-bottom: 25px;
+        padding-bottom: 0px;
+        height: 80vh;
+        margin-bottom: -15px;
     }
     .hero_heading{
-        font-size: 14px;
-        line-height: 30px;
+        font-size: 19px;
+        line-height: 33px;
+        width: 86vw;
+    }
+    .hero_heading2{
+        font-size: 23px;
+        line-height: 0px;
     }
     .about_title{
         font-size: 12px;
         line-height: 30px;
     }
+    .about_harding2 {
+        font-size: 14px;
+    }
     .hero_para {
         font-size: 11px;
+        line-height:17px;
     }
     .read_more{
         font-size: 11px;
@@ -42,11 +53,12 @@
         font-size: 20px;
     }
     .about_para {
-        width: 90%;
+        width: 100%;
+        text-align: right;
     }
     .sponsors_box {
         width: 85%;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
     }
     .sponsors{
         display: flex;
@@ -54,11 +66,21 @@
         /* flex-wrap: nowrap; */
         flex-direction: column;
     }
+    .sponsors_space{
+        margin-top: 0px;
+    }
+    .services {
+        margin-top: 20px;
+    }
     .sponsors_para {
         font-size: 13px;
     }
+    .sponsors_heading {
+        font-size: 20px;
+    }
     .map{
         height: 40vh;
+        margin-bottom: 25vh;
     }
     .form_input {
         width: 80%;
@@ -85,7 +107,7 @@
         display: flex;
         flex-direction: row;
         align-items: flex-end;
-        height: 160px;
+        height: 180px;
         transition: all 0.4s ease-out;
     }
     .title {
