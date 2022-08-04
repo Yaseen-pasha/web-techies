@@ -20,14 +20,14 @@
         line-height: 0px;
     }
     .about_title{
-        font-size: 12px;
+        font-size: 13px;
         line-height: 30px;
     }
     .about_harding2 {
         font-size: 14px;
     }
     .hero_para {
-        font-size: 11px;
+        font-size: 12px;
         line-height:17px;
     }
     .read_more{
@@ -67,6 +67,9 @@
         /* flex-wrap: nowrap; */
         flex-direction: column;
     }
+    .sponsors_img {
+        z-index: 5;
+    }
     .sponsors_space{
         margin-top: 0px;
     }
@@ -90,7 +93,8 @@
     }
     .form_submit {
         margin-top: 12px;
-        width: 30%;
+        width: 33%;
+        font-size: 12px;
     }
     .footer {
         font-size: 10px;
@@ -110,6 +114,7 @@
         align-items: flex-end;
         height: 180px;
         transition: all 0.4s ease-out;
+        z-index: 99;
     }
     .title {
         text-decoration: none;
