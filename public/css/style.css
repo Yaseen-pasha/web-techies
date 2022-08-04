@@ -215,7 +215,7 @@ html{
     display: none;
     position: absolute;
     cursor: pointer;
-    right: 0px;
+    right: 5px;
     top: 19px;
     transform: translate(-10%, -50%);
 }

@@ -6,8 +6,9 @@
         align-items: center;
         justify-content: center;
         padding-bottom: 0px;
-        height: 80vh;
-        margin-bottom: -15px;
+        height: 70vh;
+        width: 100%;
+        margin-bottom: -30px;
     }
     .hero_heading{
         font-size: 19px;
@@ -53,7 +54,7 @@
         font-size: 20px;
     }
     .about_para {
-        width: 100%;
+        width: 98%;
         text-align: right;
     }
     .sponsors_box {
@@ -80,7 +81,7 @@
     }
     .map{
         height: 40vh;
-        margin-bottom: 25vh;
+        margin-bottom: 150px;
     }
     .form_input {
         width: 80%;
