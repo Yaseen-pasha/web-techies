@@ -10,3 +10,7 @@ burger.addEventListener('click', ()=>{
     burger.onclick = function(){
     burger.classList.toggle("openburger");
 }
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
