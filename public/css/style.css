@@ -202,13 +202,32 @@ html{
     width: 10%;
 }
 .footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     text-align: center;
     font-size: 15px;
     background: #161B30;
     color: white;
-    line-height: 47px;
+    /* line-height: 47px; */
+    height: 47px;
     margin-top: 68px;
 }
+.footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* .footer{
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    background: #161B30;
+    color: white;
+    height: 49px;
+    display: flex;
+} */
 .form_submit{
     margin-top: 20px;
 }
