@@ -126,9 +126,9 @@
     .title {
         text-decoration: none;
         margin-left: 11px;
-        font-size: 24px;
+        font-size: 45px;
         /* width: 87vw; */
-        top: 5px;
+        top: 0px;
         position: absolute;
     }
     .navlist li {

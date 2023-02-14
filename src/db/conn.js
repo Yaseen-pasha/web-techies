@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const DB = process.env.DATABASE;
 
-mongoose.connect(DB || "mongodb://localhost:27017/webWonders",{
+mongoose.connect(DB || "mongodb://localhost:27017/Web-Techies",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 }).then(()=>{

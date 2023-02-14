@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lovers+Quarrel&family=Mulish:ital,wght@0,300;1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -18,10 +20,12 @@ html{
 }
 .title{
     text-decoration: none;
-    margin-left: 100px;
-    font-size: 30px;
+    margin: auto 0px auto 100px;
+    font-size: 50px;
     color: #7d3cff;
-    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Lovers Quarrel', cursive;
+
 }
 .background{
     background: rgba(0,0,0,0.3) url("../images/navv2.jpg");
